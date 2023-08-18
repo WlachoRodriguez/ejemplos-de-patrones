@@ -1,12 +1,8 @@
 import { SaludoSimple } from './SaludoSimple';
 
 export class LlamadoSaludoSimple {
-  public static main(tipoSaludo: boolean): string {
+  public static main(): string {
     const object = SaludoSimple.getInstance();
-    if (tipoSaludo) {
-      return object.showSaludo();
-    } else {
-      return object.showDespedida();
-    }
+    return object.showSaludo();
   }
 }

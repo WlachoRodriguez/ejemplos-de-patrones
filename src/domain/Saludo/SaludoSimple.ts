@@ -8,7 +8,4 @@ export class SaludoSimple {
     public showSaludo(): string{
        return "Hola Mundo :D";
     }
-    public showDespedida(): string{
-        return "Adios Mundo :(";
-     }
  }

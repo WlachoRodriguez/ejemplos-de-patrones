@@ -30,8 +30,8 @@ const cotizar = () => {
     alert(BuilderPatternDemo.main(listas));
 }
 
-const saludar = (tipo: boolean) => {
-  alert(LlamadoSaludoSimple.main(tipo));
+const saludar = () => {
+  alert(LlamadoSaludoSimple.main());
 }
 </script>
 
@@ -69,8 +69,7 @@ const saludar = (tipo: boolean) => {
     <div class="singleton">
       {{ "Singleton" }}
       <br>
-      <Button @click="saludar(true)">Saludo</Button>
-      <Button @click="saludar(false)">Despedir</Button>
+      <Button @click="saludar()">Saludo</Button>
     </div>
   </div>
 </template>
